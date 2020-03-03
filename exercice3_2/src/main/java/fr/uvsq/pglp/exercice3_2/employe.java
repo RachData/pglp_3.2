@@ -1,3 +1,4 @@
+package fr.uvsq.pglp.exercice3_2;
 
 public class employe extends allEmploye{
 	final private int salaire=1500;

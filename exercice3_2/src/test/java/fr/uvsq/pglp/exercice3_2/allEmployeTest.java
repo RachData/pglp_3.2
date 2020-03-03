@@ -22,6 +22,7 @@ public class allEmployeTest {
 		double salaireTotal=0;
 		for(int i=0;i < listEmploye.size();i++)
 			salaireTotal+=listEmploye.get(i).salaire();
+		assertTrue(salaireTotal==7055);
 	}
 
 }
